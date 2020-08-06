@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="nav-bg">
+        <div class="header">
+            <a href="/" class="sitelogo">CNOW</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section>
+        <div class="jumbotron">
+            <form action="/" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" class="form-control" name="username"  placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <label for="roomid">Room ID</label>
+                    <input type="text" id="roomid" name="roomid" class="form-control" placeholder="Username" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enter Room</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

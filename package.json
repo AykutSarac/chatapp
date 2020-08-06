@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "0.0.1",
+  "description": "Chat application made using express, socket.io, firebase.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "chat",
+    "chatapp",
+    "chat",
+    "socketio"
+  ],
+  "author": "AykutSarac",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

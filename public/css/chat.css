@@ -1,0 +1,81 @@
+.chatapp {
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: dodgerblue !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 1em 1em 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chatapp .textsend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: slategray 1px solid;
+}
+
+.chatapp .chat {
+  text-align: justify;
+  border-radius: 5px;
+  width: 100%;
+  background-color: white;
+}
+
+.chatapp .chatbubble {
+  margin: 2px;
+  display: block;
+  padding-right: 5px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  margin-right: 2em;
+}
+
+.chatapp .chatbubble.right {
+  background-color: lightblue;
+  width: auto;
+  text-align: right;
+  margin-right: 2px;
+  margin-left: 2em;
+}
+
+.chatapp .serverinfo {
+  color: white;
+  margin: 1em;
+  float: left;
+}
+
+.chatapp .serverinfo li {
+  margin: 0;
+  clear: both;
+  display: inline-block;
+}
+
+form {
+  background-color: dodgerblue;
+  padding: 1em;
+  margin-top: -1em;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form input, form input:active {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.timestamp {
+  color: gray;
+  font-size: .7em;
+}
+/*# sourceMappingURL=chat.css.map */
